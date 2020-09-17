@@ -20,7 +20,7 @@ public class bot extends ListenerAdapter {
     private Message msg;
 
     public static void main(String[] args) throws LoginException {
-        String Token = "NzQ1NTY5MzIwNzIxMDU1ODY3.Xzzrig.CQPuHcD8oeTHrIMrf8wSllCWGc8";
+        String Token = "--INSERT TOKEN HERE--";
         JDABuilder.createDefault(Token).setMemberCachePolicy(MemberCachePolicy.ALL).enableIntents(GatewayIntent.GUILD_MEMBERS).addEventListeners(new bot()).build();
     }
     // invite url:  https://discordapp.com/api/oauth2/authorize?client_id=632977724583182336&permissions=8&scope=bot

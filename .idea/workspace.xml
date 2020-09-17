@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5cd4932-0baf-4422-9c98-384c6c295ae9" name="Default Changelist" comment="" />
+    <list default="true" id="d5cd4932-0baf-4422-9c98-384c6c295ae9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/Clan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Clan/ClanInvite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Clan/MakeClan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Help/Help_Get_All_Commands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Help/Help_Get_Single_Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordController/CommandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordController/Filewriter_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEntity/CommandEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEntity/HelpString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEvents/OnGuildJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEvents/OnMessageRecieved.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEvents/OnReactionAdded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Enum/ArgumentTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Enum/Enum_ErrorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Resourses/CommandsList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Settings/DiscordVariables.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Settings/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/CommandValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/Singlevallidators/ArgumentValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/Singlevallidators/PermissionValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/Singlevallidators/SingleValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/bot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_variables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/Clan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Clan/ClanInvite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Clan/MakeClan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Help/Help_Get_All_Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Help/Help_Get_Single_Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordController/CommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordController/Filewriter_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEntity/CommandEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEntity/HelpString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnGuildJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnMessageRecieved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnReactionAdded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/ArgumentTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/Enum_ErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Resourses/CommandsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Settings/DiscordVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Settings/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/CommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/Singlevallidators/ArgumentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/Singlevallidators/PermissionValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/Singlevallidators/SingleValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bot.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +105,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gJLi0373gH7zB0vi5wp02UrhOo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,9 +116,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,6 +185,7 @@
       <workItem from="1600284896472" duration="2633000" />
       <workItem from="1600355546038" duration="3185000" />
       <workItem from="1600363667277" duration="1059000" />
+      <workItem from="1600364974983" duration="15000" />
     </task>
     <servers />
   </component>

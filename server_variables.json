@@ -1,0 +1,43 @@
+{"servers": [
+  {
+    "server_name": "HURTWORLD",
+    "server_Settings": [],
+    "Settings_Info": {},
+    "server_pass": "",
+    "server_ID": ""
+  },
+  {
+    "server_name": "HURTWORLD",
+    "server_Settings": [
+      {
+        "Setting": "Message On User Join",
+        "Value": "False"
+      },
+      {
+        "Setting": "sepparate Issue Channel",
+        "Value": "False"
+      }
+    ],
+    "Settings_Info": {},
+    "server_github": [],
+    "server_pass": "",
+    "server_ID": "742025636209491999"
+  },
+  {
+    "server_name": "gitbot-dev",
+    "server_Settings": [
+      {
+        "Setting": "Message On User Join",
+        "Value": "False"
+      },
+      {
+        "Setting": "sepparate Issue Channel",
+        "Value": "False"
+      }
+    ],
+    "Settings_Info": {},
+    "server_github": [],
+    "server_pass": "",
+    "server_ID": "632269133949698056"
+  }
+]}

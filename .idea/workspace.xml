@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5cd4932-0baf-4422-9c98-384c6c295ae9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/Clan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Clan/ClanInvite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Clan/MakeClan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Help/Help_Get_All_Commands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/CommandExecutor/Help/Help_Get_Single_Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordCommands/Help.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordController/CommandController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordController/Filewriter_Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEntity/CommandEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEntity/HelpString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEvents/OnGuildJoin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEvents/OnMessageRecieved.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/DiscordEvents/OnReactionAdded.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Enum/ArgumentTypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Enum/Enum_ErrorType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Resourses/CommandsList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Settings/DiscordVariables.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Settings/Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/CommandValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/Singlevallidators/ArgumentValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/Singlevallidators/PermissionValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Validator/Singlevallidators/SingleValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/bot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_variables.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/Clan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Clan/ClanInvite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Clan/MakeClan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Help/Help_Get_All_Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/CommandExecutor/Help/Help_Get_Single_Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordController/CommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordController/Filewriter_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEntity/CommandEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEntity/HelpString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnGuildJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnMessageRecieved.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnReactionAdded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/ArgumentTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/Enum_ErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Resourses/CommandsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Settings/DiscordVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Settings/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/CommandValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/Singlevallidators/ArgumentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/Singlevallidators/PermissionValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Validator/Singlevallidators/SingleValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,12 +119,32 @@
       <workItem from="1600284896472" duration="2633000" />
       <workItem from="1600355546038" duration="3185000" />
       <workItem from="1600363667277" duration="1059000" />
-      <workItem from="1600364974983" duration="15000" />
+      <workItem from="1600364974983" duration="275000" />
     </task>
+    <task id="LOCAL-00001" summary="static token">
+      <created>1600365111230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600365111230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added gitignore">
+      <created>1600365209356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600365209356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="static token" />
+    <MESSAGE value="added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1598176166426">
@@ -209,10 +163,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598175987118" />
-    <state x="341" y="11" key="CommitChangelistDialog2" timestamp="1600365110097">
+    <state x="341" y="11" key="CommitChangelistDialog2" timestamp="1600365260140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365110097" />
+    <state x="341" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365260140" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1597828597671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

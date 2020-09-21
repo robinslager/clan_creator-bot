@@ -49,6 +49,7 @@ public class Clan extends CommandEntity {
                 break;
             case "delete":
                 break;
+                // todo options command shows all possible options for clans
             default:
                 this.PushExeption(Invalid_Option_Clan, true);
                 break;

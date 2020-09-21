@@ -10,6 +10,8 @@ import net.dv8tion.jda.api.requests.RestAction;
 import java.util.ArrayList;
 import java.util.List;
 
+import Enum.Enum_ErrorType;
+
 public class OnReactionAdded {
 
     public OnReactionAdded(MessageReactionAddEvent event) {
@@ -28,14 +30,14 @@ public class OnReactionAdded {
             ArrayList<String[]> invites = Singleton.getInstance().invitesSend;
             // check if current user has a invite
             for (int i = 0; i < invites.size(); i++) {
-                if(invites.get(i)[0].equals(user.getId())){
+                if (invites.get(i)[0].equals(user.getId())) {
                     invite_information = invites.get(i);
 
                 }
             }
-            if(invite_information != null) {
+            if (invite_information != null) {
                 guild = event.getJDA().getGuildById(invite_information[2]);
-                if(guild != null) {
+                if (guild != null) {
                     roles = guild.getRoles();
                     // check if clan role exists
                     for (Role role : roles) {
@@ -54,25 +56,35 @@ public class OnReactionAdded {
                         messages.get(0).delete().queue();
                     } else {
                         // role does not exists
-                        System.out.println("role not existing");
+                        Singleton.getInstance().base.PushPrivateExeption(
+                                Enum_ErrorType.Accepted_Clan_not_existing,
+                                false,
+                                event.getUser(),
+                                null);
                     }
                 } else {
                     // guild does not exists
-                    System.out.println("guild not existing");
+                    Singleton.getInstance().base.PushPrivateExeption(
+                            Enum_ErrorType.invitationed_Guild_Does_not_exist,
+                            false,
+                            event.getUser(),
+                            null);
                 }
             } else {
                 // invite does not exists
-                System.out.println("invite not existing");
+                Singleton.getInstance().base.PushPrivateExeption(
+                        Enum_ErrorType.invitation_does_not_exists,
+                        false,
+                        event.getUser(),
+                        null);
             }
-
         }
-
     }
 
-    public void deleteinvite(ArrayList<String[]> invites, String[] used_invite){
-        if (invites == Singleton.getInstance().invitesSend){
-            for (String[] invite: Singleton.getInstance().invitesSend) {
-                if(used_invite == invite){
+    public void deleteinvite(ArrayList<String[]> invites, String[] used_invite) {
+        if (invites == Singleton.getInstance().invitesSend) {
+            for (String[] invite : Singleton.getInstance().invitesSend) {
+                if (used_invite == invite) {
                     Singleton.getInstance().invitesSend.remove(used_invite);
                 }
             }

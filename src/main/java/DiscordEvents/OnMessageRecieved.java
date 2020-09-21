@@ -19,9 +19,11 @@ public class OnMessageRecieved {
 
                     new CommandController(parts[0].substring(1), event);
 
+                } else {
+                    System.out.println("this is a normal message");
                 }
             } catch (StringIndexOutOfBoundsException e) {
-                log.println("message has length of 0");
+                log.println("idk ");
             }
         }
     }

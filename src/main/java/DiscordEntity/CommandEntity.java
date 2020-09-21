@@ -7,6 +7,7 @@ import Enum.Enum_ErrorType;
 import Settings.Singleton;
 import Validator.CommandValidator;
 import net.dv8tion.jda.api.Permission;
+import net.dv8tion.jda.api.entities.User;
 
 import java.util.ArrayList;
 
@@ -134,6 +135,7 @@ public abstract class CommandEntity {
         }
         Settings.base.sendmessage(Exeption);
     }
+
 
     /**
      * @function CommandValidation

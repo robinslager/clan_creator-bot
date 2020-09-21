@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5cd4932-0baf-4422-9c98-384c6c295ae9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d5cd4932-0baf-4422-9c98-384c6c295ae9" name="Default Changelist" comment="added gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiscordCommands/Clan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiscordCommands/Clan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiscordEntity/CommandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiscordEntity/CommandEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnMessageRecieved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnMessageRecieved.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnReactionAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiscordEvents/OnReactionAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enum/Enum_ErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enum/Enum_ErrorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Settings/DiscordVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Settings/DiscordVariables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +49,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gJLi0373gH7zB0vi5wp02UrhOo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -119,7 +129,10 @@
       <workItem from="1600284896472" duration="2633000" />
       <workItem from="1600355546038" duration="3185000" />
       <workItem from="1600363667277" duration="1059000" />
-      <workItem from="1600364974983" duration="275000" />
+      <workItem from="1600364974983" duration="1394000" />
+      <workItem from="1600373979693" duration="726000" />
+      <workItem from="1600461610979" duration="9000" />
+      <workItem from="1600716237766" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="static token">
       <created>1600365111230</created>
@@ -135,16 +148,25 @@
       <option name="project" value="LOCAL" />
       <updated>1600365209356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated gitignore">
+      <created>1600365295608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600365295608</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="static token" />
     <MESSAGE value="added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+    <MESSAGE value="updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1598176166426">
@@ -163,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598175987118" />
-    <state x="341" y="11" key="CommitChangelistDialog2" timestamp="1600365260140">
+    <state x="341" y="11" key="CommitChangelistDialog2" timestamp="1600365601297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365260140" />
+    <state x="341" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365601297" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1597828597671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,10 +213,14 @@
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600364238482" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599947378692" />
-    <state x="343" y="149" key="Vcs.Push.Dialog.v2" timestamp="1600365113419">
+    <state x="479" y="127" key="RollbackChangesDialog" timestamp="1600365523614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="343" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365113419" />
+    <state x="479" y="127" key="RollbackChangesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365523614" />
+    <state x="343" y="149" key="Vcs.Push.Dialog.v2" timestamp="1600365562245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="343" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600365562245" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600363998023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
